@@ -2,50 +2,50 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    title: "GE HealthCare - Critical Healthcare Applications",
+    title: "Harvest - Refonte architecture AXA / Generali",
     description:
-      "Led development of mission-critical web applications for digital healthcare sector using JavaScript/TypeScript. Implemented advanced debugging techniques and ensured code robustness in regulated medical environments. Collaborated with cross-functional teams to deliver HIPAA-compliant solutions with 99.9% uptime.",
-    tags: ["React.js", "Node.js", "TypeScript", "Jest", "Healthcare", "Regulatory Compliance"],
-    period: "2025 - Present",
-    link: "https://www.gehealthcare.com/",
+      "Migration d'une application de gestion des processus métiers d'une architecture monolithique vers une architecture n-tiers (microservices). Mise en place de la pré-compilation des vues, développement d'un système de localisation, et optimisation des performances sur plusieurs écrans critiques.",
+    tags: ["C#", ".NET Core", ".NET Framework 4.8", "SQL Server", "Azure DevOps", "Microservices"],
+    period: "2024 - Présent",
+    link: "https://www.harvest.fr/",
   },
   {
-    title: "Datatys - Real-Time SaaS Monitoring Platform",
+    title: "Uniformation - Application de gestion métiers (Web-Privé, Uniweb)",
     description:
-      "Technical lead for a comprehensive monitoring platform processing real-time data streams. Architected microservices infrastructure, developed interactive React.js dashboards, and implemented complete CI/CD pipelines. Reduced deployment time by 60% and improved system reliability to 99.95% uptime through automated testing and monitoring.",
-    tags: ["NestJS", "React.js", "Kubernetes", "AWS", "Terraform", "Microservices"],
-    period: "2023 - 2025",
-    link: "https://www.datatys.com/",
+      "Développement d'évolutions et correction de bugs sur une application de gestion des processus métiers. Migration TFS→Git/Azure, traitement des commandes clients, développement d'une solution d'export PDF, déploiements et code review pour les développeurs juniors.",
+    tags: ["C#", ".NET Core 3.1", "VB.NET", "ReactJs", "DynamoDB", "Azure DevOps"],
+    period: "2021 - 2024",
+    link: "https://www.uniformation.fr/",
   },
   {
-    title: "Société Générale - Secure Banking Applications",
+    title: "Europ Assistance - Application E-Sector+",
     description:
-      "Developed secure mobile and desktop applications for banking operations. Built Spring Boot backends, React.js/TypeScript frontends, and React Native mobile apps for iOS/Android. Implemented enterprise-grade security measures and maintained PCI DSS compliance across all applications.",
-    tags: ["Spring Boot", "React Native", "TypeScript", "Docker", "Security", "Banking"],
-    period: "2023 - 2024",
-    link: "https://www.societegenerale.com/",
+      "Extraction et traitement de données Salesforce vers plusieurs formats, développement d'évolutions et garantie du bon fonctionnement des services en production. Intégration AWS et Azure.",
+    tags: ["C#", ".NET Core 3.1", "SSIS", "Salesforce", "SOQL", "AWS", "Azure"],
+    period: "2021",
+    link: "https://www.europ-assistance.fr/",
   },
   {
-    title: "SLIB - Post-Trade Financial Services",
+    title: "Veolia - Outil de gestion assainissement & déchets dangereux",
     description:
-      "Engineered critical backend services for financial transaction processing. Developed REST APIs using NestJS, implemented automated cron jobs for batch processing, and integrated Euroclear financial data formats. Ensured 100% data accuracy and real-time processing capabilities.",
-    tags: ["NestJS", "PostgreSQL", "TypeORM", "Bitbucket", "Financial Services"],
-    period: "2024",
-    link: "https://www.slib.com/",
+      "Développement d'évolutions sur un outil de gestion des processus métiers. Création de rapports JASPER, intervention sur le chemin critique, participation aux réunions de spécification fonctionnelle.",
+    tags: ["C#", ".NET Core 2.2", "NHibernate", "RabbitMQ", "Swagger", "Angular 6", "SQL Server"],
+    period: "2018 - 2019",
+    link: "https://www.veolia.com/",
   },
   {
-    title: "CISIRH - Strike Management System",
+    title: "Total - Machine de dépôt automatique de chèques (DAC)",
     description:
-      "Built comprehensive web application for government strike management operations. Developed REST APIs with NestJS, created responsive React.js frontend, and achieved 80%+ test coverage. Implemented role-based access control and real-time notification systems for critical government workflows.",
-    tags: ["Node.js", "NestJS", "React.js", "Docker", "Jest", "Government"],
-    period: "2022 - 2023",
-    link: "https://www.cisirh.gouv.fr/",
+      "Conception et développement d'un automate de remise des chèques avec module de supervision, géolocalisation, synchronisation hors-ligne, monitoring temps réel et reporting SSRS.",
+    tags: ["C#", "ASP.NET MVC5", "WPF", "SSIS", "SSRS", "Entity Framework", "SQL Server"],
+    period: "2017 - 2018",
+    link: "https://www.totalenergies.com/",
   },
   {
-    title: "Fintech Dashboards - Payment Solutions",
+    title: "Tubozer - Solution de gestion de sites pétroliers (TuboSky V2)",
     description:
-      "Developed financial dashboards for multiple fintech companies (Digicash, TayraPay, Accelex). Built real-time data visualization interfaces, integrated payment processing APIs, and implemented secure authentication systems. Supported transaction volumes exceeding 1M daily with sub-second response times.",
-    tags: ["Next.js", "React.js", "Node.js", "MongoDB", "Fintech", "Real-time"],
-    period: "2020 - 2022",
+      "Architecture et développement d'une API .NET Core, module de gestion des utilisateurs (Identity Server), gestion des workflows en multithreading, génération de rapports Word/Excel/PDF, déploiement sur serveur Linux.",
+    tags: ["ASP.NET Core 2.1", "Angular 6", "TypeScript", "JWT", "SQL", "Bootstrap 4"],
+    period: "2018",
   },
 ];
