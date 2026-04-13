@@ -10,7 +10,7 @@ export const profile: Profile = {
   email: "Fares.gharbi.mail@gmail.com",
   phone: "+33 7 46 52 95 57",
   location: "France",
-  linkedin: "https://linkedin.com/in/fares-gharbi",
+  linkedin: "https://www.linkedin.com/in/fares-gharbi-a38658a4",
   website: "",
   github: "https://github.com",
 };
