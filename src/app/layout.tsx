@@ -7,9 +7,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Khaled Ebdelli | Lead Full Stack Developer | Hazar Solutions",
+  title: "Fares Gharbi | Développeur .NET Senior · Fullstack",
   description:
-    "Lead Full Stack JavaScript Developer with 10+ years of experience. Building impactful web and mobile solutions at Hazar Solutions.",
+    "Développeur .NET Senior avec plus de 8 ans d'expérience. Spécialisé en C#, ASP.NET Core, microservices et intégration de données.",
   icons: {
     icon: [
       {
