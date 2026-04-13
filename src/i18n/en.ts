@@ -10,19 +10,19 @@ export const en: Translation = {
     contact: "Contact",
   },
   hero: {
-    available: "Available for projects",
-    tagline: "Lead Developer · Full Stack JavaScript",
+    available: "Available for missions",
+    tagline: "Senior .NET Developer · Fullstack",
     greeting: "Hi, I'm",
     description:
-      "Full Stack JavaScript Engineer with 10+ years of experience designing, developing, and architecting high-impact web and mobile solutions. Specialized in the Node.js / NestJS / React.js / TypeScript ecosystem.",
+      "Senior .NET Developer with 8+ years of experience designing and building robust, scalable software solutions. Specialized in the .NET ecosystem (C#, ASP.NET Core), microservices architecture, business workflows, and data integration.",
     contactMe: "Contact Me",
     viewProjects: "View Projects",
     downloadCV: "Download CV",
   },
   about: {
     title: "About Me",
-    p1: "Across missions in healthcare, finance, banking, and public administration, I have consolidated a Lead Developer role: technical leadership, team mentoring, scalable architecture definition, and code quality assurance.",
-    p2: "I place performance, security, and delivery at the heart of every project. My focus is on building robust backends, modern frontends, and automated DevOps pipelines.",
+    p1: "Through missions at Harvest, Uniformation, Europ Assistance, Veolia and Total, I've built deep expertise in .NET development, architectural redesign, workflow management, and performance optimization.",
+    p2: "I place code quality, maintainability, and client satisfaction at the heart of every project. My focus: robust, scalable, and well-documented .NET solutions.",
     contact: "Contact",
   },
   skills: {
@@ -30,8 +30,8 @@ export const en: Translation = {
     categories: {
       backend: "Back-end Development",
       frontend: "Front-end Development",
-      devops: "DevOps & Cloud",
-      quality: "Quality & Architecture",
+      devops: "Databases",
+      quality: "Tools & DevOps",
       soft: "Soft Skills",
     },
   },
@@ -39,56 +39,60 @@ export const en: Translation = {
     title: "Experience",
     present: "Present",
     roles: {
-      "GE HealthCare": "Full Stack Engineer",
-      "SLIB": "NestJS Back-end Developer",
-      "Société Générale": "Full Stack Engineer",
-      "Datatys": "Lead Full Stack & DevOps Developer",
+      "Harvest (AXA / Generali)": ".NET Core Consultant",
+      "Uniformation": ".NET Core Consultant",
+      "Europ Assistance": ".NET Core / SSIS Consultant",
+      "SIACI Assurance": "Fullstack Developer",
+      "Veolia": "Fullstack Developer",
+      "Tubozer": ".NET Core / Angular Developer",
+      "Total": ".NET Developer",
     },
   },
   projects: {
     title: "Featured Projects",
     items: [
       {
-        title: "GE HealthCare - Critical Healthcare Applications",
+        title: "Harvest - AXA / Generali Architecture Redesign",
         description:
-          "Led development of mission-critical web applications for digital healthcare sector using JavaScript/TypeScript. Implemented advanced debugging techniques and ensured code robustness in regulated medical environments. Collaborated with cross-functional teams to deliver HIPAA-compliant solutions with 99.9% uptime.",
+          "Migration of a business process management application from a monolithic to an n-tier (microservices) architecture. View pre-compilation setup, new localization system development, and performance optimization on critical screens.",
       },
       {
-        title: "Datatys - Real-Time SaaS Monitoring Platform",
+        title: "Uniformation - Business Management Application",
         description:
-          "Technical lead for a comprehensive monitoring platform processing real-time data streams. Architected microservices infrastructure, developed interactive React.js dashboards, and implemented complete CI/CD pipelines. Reduced deployment time by 60% and improved system reliability to 99.95% uptime.",
+          "Feature development and bug fixing on a business process management application (Web-Privé, Uniweb). TFS→Git/Azure migration, PDF export solution, deployments and code reviews for junior developers.",
       },
       {
-        title: "Société Générale - Secure Banking Applications",
+        title: "Europ Assistance - E-Sector+ Application",
         description:
-          "Developed secure mobile and desktop applications for banking operations. Built Spring Boot backends, React.js/TypeScript frontends, and React Native mobile apps for iOS/Android. Implemented enterprise-grade security measures and maintained PCI DSS compliance across all applications.",
+          "Salesforce data extraction and transformation to multiple formats, feature development and production service monitoring. AWS and Azure integration.",
       },
       {
-        title: "SLIB - Post-Trade Financial Services",
+        title: "Veolia - Sanitation & Hazardous Waste Management Tool",
         description:
-          "Engineered critical backend services for financial transaction processing. Developed REST APIs using NestJS, implemented automated cron jobs for batch processing, and integrated Euroclear financial data formats. Ensured 100% data accuracy and real-time processing capabilities.",
+          "Feature development on a business process management tool. JASPER report creation, functional specification meetings, and critical path intervention.",
       },
       {
-        title: "CISIRH - Strike Management System",
+        title: "Total - Automated Check Deposit Machine (DAC)",
         description:
-          "Built comprehensive web application for government strike management operations. Developed REST APIs with NestJS, created responsive React.js frontend, and achieved 80%+ test coverage. Implemented role-based access control and real-time notification systems for critical government workflows.",
+          "Design and development of a check deposit automation system with supervision module, geolocation, offline sync, real-time monitoring, and SSRS reporting.",
       },
       {
-        title: "Fintech Dashboards - Payment Solutions",
+        title: "Tubozer - Oil Site Management Solution (TuboSky V2)",
         description:
-          "Developed financial dashboards for multiple fintech companies (Digicash, TayraPay, Accelex). Built real-time data visualization interfaces, integrated payment processing APIs, and implemented secure authentication systems. Supported transaction volumes exceeding 1M daily with sub-second response times.",
+          "Architecture and development of a .NET Core API, user management module (Identity Server), multithreaded workflow management, Word/Excel/PDF report generation, Linux server deployment.",
       },
     ],
   },
   education: {
     title: "Education",
-    degree: "National Engineering Degree in Computer Science",
+    degree: "Engineering Degree in Computer Science",
   },
   languages: {
     title: "Languages",
     items: [
       { name: "French", proficiency: "Fluent / Professional" },
-      { name: "English", proficiency: "Professional (reading, writing, technical discussions)" },
+      { name: "English", proficiency: "Professional" },
+      { name: "Arabic", proficiency: "Native language" },
     ],
   },
   footer: {
