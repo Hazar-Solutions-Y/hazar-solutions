@@ -135,7 +135,7 @@ function Hero() {
               >
                 {t.hero.viewProjects}
               </motion.button>
-              <a href="/khaled_ebdelli_cv_2026.pdf" download>
+              <a href="/fares_gharbi_cv.pdf" download>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button variant="secondary">
                     <Download size={18} />
