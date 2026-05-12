@@ -4,6 +4,7 @@ import {
   Skills,
   Experience,
   Projects,
+  PersonalProjects,
   Education,
   Languages,
   Footer,
@@ -19,6 +20,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <PersonalProjects />
       <Education />
       <Languages />
       <Footer />

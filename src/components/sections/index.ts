@@ -3,6 +3,7 @@ export { About } from "./about";
 export { Skills } from "./skills";
 export { Experience } from "./experience";
 export { Projects } from "./projects";
+export { PersonalProjects } from "./personal-projects";
 export { Education } from "./education";
 export { Languages } from "./languages";
 export { Footer } from "./footer";

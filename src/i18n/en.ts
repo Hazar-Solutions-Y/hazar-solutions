@@ -6,6 +6,7 @@ export const en: Translation = {
     skills: "Skills",
     experience: "Experience",
     projects: "Projects",
+    personalProjects: "Side Projects",
     education: "Education",
     contact: "Contact",
   },
@@ -77,6 +78,16 @@ export const en: Translation = {
         title: "Fintech Dashboards - Payment Solutions",
         description:
           "Developed financial dashboards for multiple fintech companies (Digicash, TayraPay, Accelex). Built real-time data visualization interfaces, integrated payment processing APIs, and implemented secure authentication systems. Supported transaction volumes exceeding 1M daily with sub-second response times.",
+      },
+    ],
+  },
+  personalProjects: {
+    title: "Side Projects",
+    items: [
+      {
+        title: "DropFlow - Multi-Vendor Dropshipping Platform",
+        description:
+          "Personal microservices project: a multi-vendor dropshipping platform where vendors create stores, manage products and auto-fulfill orders, monetized via SaaS subscriptions and sales commission. Built as an 8-module learning series covering monorepo setup, JWT auth, product catalog, BullMQ-backed orders, customer storefront, email/WebSocket notifications, Stripe payments, coupons & analytics, and AI features. Includes a real-time monitoring dashboard with live log streaming and a Gemini-powered product image analyzer.",
       },
     ],
   },

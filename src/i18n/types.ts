@@ -6,6 +6,7 @@ export interface Translation {
     skills: string;
     experience: string;
     projects: string;
+    personalProjects: string;
     education: string;
     contact: string;
   };
@@ -40,6 +41,13 @@ export interface Translation {
     roles: Record<string, string>;
   };
   projects: {
+    title: string;
+    items: {
+      title: string;
+      description: string;
+    }[];
+  };
+  personalProjects: {
     title: string;
     items: {
       title: string;

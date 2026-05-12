@@ -18,6 +18,7 @@ function Header() {
     { href: "#skills", label: t.nav.skills },
     { href: "#experience", label: t.nav.experience },
     { href: "#projects", label: t.nav.projects },
+    { href: "#personal-projects", label: t.nav.personalProjects },
     { href: "#education", label: t.nav.education },
     { href: "#contact", label: t.nav.contact },
   ];

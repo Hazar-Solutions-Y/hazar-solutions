@@ -6,6 +6,7 @@ export const fr: Translation = {
     skills: "Compétences",
     experience: "Expérience",
     projects: "Projets",
+    personalProjects: "Projets perso",
     education: "Formation",
     contact: "Contact",
   },
@@ -77,6 +78,16 @@ export const fr: Translation = {
         title: "Tableaux de bord Fintech - Solutions de paiement",
         description:
           "Développement de tableaux de bord financiers pour plusieurs entreprises fintech (Digicash, TayraPay, Accelex). Interfaces de visualisation de données en temps réel, intégration d'APIs de traitement de paiements et systèmes d'authentification sécurisés. Support de plus d'1M de transactions quotidiennes.",
+      },
+    ],
+  },
+  personalProjects: {
+    title: "Projets personnels",
+    items: [
+      {
+        title: "DropFlow - Plateforme de dropshipping multi-vendeurs",
+        description:
+          "Projet personnel en architecture microservices : une plateforme de dropshipping multi-vendeurs où chaque vendeur crée sa boutique, gère ses produits et automatise le traitement des commandes, monétisée via abonnements SaaS et commission sur ventes. Construit comme une série pédagogique en 8 modules couvrant monorepo, authentification JWT, catalogue produits, commandes avec BullMQ, storefront client, notifications email/WebSocket, paiements Stripe, coupons & analytics, et fonctionnalités IA. Inclut un dashboard de monitoring temps réel avec streaming de logs et un analyseur d'images produits propulsé par Gemini.",
       },
     ],
   },
