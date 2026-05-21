@@ -47,7 +47,7 @@ export const fr: Translation = {
     },
   },
   projects: {
-    title: "Projets phares",
+    title: "Missions",
     items: [
       {
         title: "GE HealthCare - Applications critiques de santé",
