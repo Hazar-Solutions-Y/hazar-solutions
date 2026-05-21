@@ -85,6 +85,11 @@ export const fr: Translation = {
     title: "Projets personnels",
     items: [
       {
+        title: "Offre-LinkedIn - Cockpit de triage d'opportunités freelance",
+        description:
+          "Cockpit personnel qui centralise les opportunités freelance dispersées dans Gmail (alertes LinkedIn, newsletters Free-Work, emails de recruteurs directs). Ingestion OAuth Gmail avec un parser par sender qui extrait entreprise, titre, TJM, type de contrat et localisation dans des lignes typées. Dashboard en français avec mutations de statut en un clic, notes par offre, et un générateur de CV adapté par IA (Gemini) qui réécrit le headline et met en avant les projets matchant chaque offre, rendu en PDF.",
+      },
+      {
         title: "DropFlow - Plateforme de dropshipping multi-vendeurs",
         description:
           "Projet personnel en architecture microservices : une plateforme de dropshipping multi-vendeurs où chaque vendeur crée sa boutique, gère ses produits et automatise le traitement des commandes, monétisée via abonnements SaaS et commission sur ventes. Construit comme une série pédagogique en 8 modules couvrant monorepo, authentification JWT, catalogue produits, commandes avec BullMQ, storefront client, notifications email/WebSocket, paiements Stripe, coupons & analytics, et fonctionnalités IA. Inclut un dashboard de monitoring temps réel avec streaming de logs et un analyseur d'images produits propulsé par Gemini.",

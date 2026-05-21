@@ -85,6 +85,11 @@ export const en: Translation = {
     title: "Side Projects",
     items: [
       {
+        title: "Offre-LinkedIn - Freelance Opportunity Triage Cockpit",
+        description:
+          "Personal cockpit centralizing freelance opportunities scattered across Gmail (LinkedIn job alerts, Free-Work newsletters, direct recruiter emails). Gmail OAuth ingestion with a per-sender parser extracts company, title, TJM, contract type, and location into typed rows. French-first dashboard with one-click status mutations, per-offer notes, and an AI-tailored CV generator (Gemini) that rewrites the headline and highlights matching projects per offer, rendered to PDF.",
+      },
+      {
         title: "DropFlow - Multi-Vendor Dropshipping Platform",
         description:
           "Personal microservices project: a multi-vendor dropshipping platform where vendors create stores, manage products and auto-fulfill orders, monetized via SaaS subscriptions and sales commission. Built as an 8-module learning series covering monorepo setup, JWT auth, product catalog, BullMQ-backed orders, customer storefront, email/WebSocket notifications, Stripe payments, coupons & analytics, and AI features. Includes a real-time monitoring dashboard with live log streaming and a Gemini-powered product image analyzer.",
